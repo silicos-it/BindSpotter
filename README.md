@@ -1,2 +1,2 @@
 # BindSpotter
-A python script to derive the preferred binding location of ligand from LiGaMD calculations and reweighing 
+A python script to derive the preferred binding location of ligand from LiGaMD calculations and reweighing. It uses the minima of the potential of mean force calculate along each distance between the ligand and each of the residues, and calculates the binding hotspot by minimising the intersection of the n-spheres (in which n is the number of distance-pmf plots that were calculated).
